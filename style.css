@@ -1,0 +1,96 @@
+/*Bottom Part */ 
+
+.navbar {
+    height: 60px;
+    background-color: black;
+}
+
+
+.bottom-right {
+    position: absolute;
+    bottom: 860px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.newbutton { 
+    border-radius: 15px;
+    color: black;
+    background: #7ed957;
+    cursor: pointer;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    border: transparent;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    transition: 0.5s;
+    text-decoration: none;
+    vertical-align: middle;
+    height: 24px;
+}
+
+.newbutton:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    transition: 0.8s;
+}
+
+/*Middle*/
+.main {
+    background-color: white;
+    display: flex;
+    justify-content: center; /* Alinhamento horizontal */
+    align-items: center; /* Alinhamento vertical */
+    height: 90vh;
+    margin: 0; /* Removendo margens padrão */
+    padding: 0; /* Removendo preenchimentos padrão */
+    position: relative; /* Adicionando posição relativa */
+}
+
+
+.googlelogo{
+    position: absolute; /* Alterado para absoluto */
+    top: 35%; /* Coloca o elemento no topo do body */
+    left: 50%; /* Alinhando ao centro horizontalmente */
+    transform: translateX(-50%); /* Corrigindo a posição */
+    z-index: 1; /* Define uma posição de camada acima do body */
+    min-height: 100px;
+    margin:0;
+    Padding:0;
+    width: 272px;
+    height: 92px;
+
+}
+
+.search-bar {
+    display: flex;
+    font-size: 20px;
+    padding: 5px;
+    height: 42px;
+    width: 584px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    border-radius: 24px;
+    border-color: black;
+    box-shadow: 1px 2px 0px black;
+}
+
+.search-bar:hoover {
+    background-color: silver;
+    border-color: black;
+    box-shadow: 2px 4px 0px black;
+}
+
+.button {
+    height: 36px;
+    width: 140px;
+    border-radius: 10px;
+}
+
