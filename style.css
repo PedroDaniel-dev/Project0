@@ -130,6 +130,7 @@
         bottom: 3%;
         left: 45%;
 }
+
 /*Advanced Search*/
 .asnavbar {
     margin: 10px;
@@ -232,7 +233,8 @@
 
     .advanced-search-button {
         display: flex;
+        align-items: flex-start;
         justify-content: flex-end;
-        width: 765px;
-        margin-top: 30px;
+        width: 772px;
+        margin-top: 25px;
     }
