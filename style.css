@@ -2,7 +2,6 @@
 
 .navbar {
     margin: 10px;
-    margin-top: 10px;
     height: 60px;
     background-color:rgb(253, 253, 253);
 }
@@ -134,7 +133,6 @@
 /*Advanced Search*/
 .asnavbar {
     margin: 10px;
-    margin-top: 10px;
     height: 60px;
     background-color: rgb( 253, 253, 253);
 }
@@ -170,7 +168,6 @@
 
 .span {
     float: left;
-    display: inline-block;
     min-width: 167px;
     width: 16%;
     font-size: 16px;
@@ -193,12 +190,13 @@
     margin-top: 20px;
 }
 
-.left {
+.left-part {
     width: 200px;
+    font-family: Arial, sans-serif;
 }
 
 
-.right {
+.right-part {
     width: 570px;
     height: 29px;
 }
